@@ -1,0 +1,196 @@
+doctype html
+html
+	head
+		title Berenice Aparicio Zúñiga
+		meta(charset="utf-8")
+		link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="css/style.css")
+		link(rel="stylesheet", href="css/utilities.css")
+		link(rel="shortcut icon", href="img/images.png")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/animate.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Rancho")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Nunito+Sans")
+	body
+		nav.nav.navbar-inverse
+			.container-fluid
+				.navbar-header
+					button.navbar-toggle(data-toggle="collapse" data-target="#myNavbar")
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					img.img-responsive.nina.animate-bounce(src="img/descarga.jpg", alt="")
+				.collapse.navbar-collapse#myNavbar
+					ul.nav.navbar-nav.navbar-right
+						li
+							a.icon-user#user(href="#acercademi")  Acerca de mi 
+						li
+							a.icon-keyboard#key(href="#habilidades")  Habilidades
+						li
+							a.icon-code#code(href="#proyecto")  Mis Proyectos
+						li
+							a.icon-phone#mobile(href="#contactame")  Contactame				
+		.container-fluid
+			section.pd-5
+				.row.text-center
+					.col-sm-6.col-md-6.col-lg-6
+						img.imagen.img-responsive.img-circle(src="img/Berenice.jpg", alt="")
+						h2#likes Me gusta hacer magia detrás de una página web
+					.col.sm-6.md-6.lg-6 <!-- aqui va mi background dando la bienvenida a quien entre a mi sitio-->
+						h2.color Berenice Aparicio
+						h2 Frontend Developer Jr.
+						h3 Bienvenid@ a mi mundo!
+						a(href="Berenice Aparicio.pdf" target="blank")
+							button.btn.btn-primary Descarga mi C.V.
+							 	
+
+			a(name="acercademi")
+			section
+				.row
+					.col-sm-12.col-md-12.col-lg-12.parallax2
+						.caja-p-2.textos
+							h2.text-center Te contare sobre mi
+							p.text-center Desarrollo páginas web en HTML/CSS/Javascript. Soy creativa, inteligente y alegre esto lo transmito en cada página web que desarrollo.
+							p.text-center Me gusta trabajar en equipo, me gusta leer, me encanta la naturaleza,me gusta hacer deportes, se que al escribir un par de líneas de código puedo crear algo increible, mi código se transforma en algo maravilloso.
+			a(name="habilidades")
+			hr.espacio
+			section.pd-5
+				.row
+					h2.text-center.mg-4 Mis habilidades
+					.col-sm-6.col-md-6.col-lg-6
+						p 
+							i.iconos.html.icon-html5  HTML
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="70", aria-valuemin="0", aria-valuemax="100", style="width:70%")
+								span.text-white Intermedio
+						p 
+							i.iconos.css.icon-css3  CSS3
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="70", aria-valuemin="0", aria-valuemax="100", style="width:70%")
+								span.text-white Intermedio
+						p 
+							i.iconos.js.icon-mobile-phone  JavaScript
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="width:20%")
+								span.text-white Básico
+						p 
+							i.iconos.git.icon-github-alt  GitHub
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="30", aria-valuemin="0", aria-valuemax="100", style="width:30%")
+								span.text-white Básico
+						p 
+							i.iconos.git.icon-desktop  jQuery
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="20", aria-valuemin="0", aria-valuemax="100", style="width:20%")
+								span.text-white Básico
+
+					.col-sm-6.col-md-6.col-lg-6
+						p 
+							i.iconos.html.icon-desktop  Bootstrap
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="50", aria-valuemin="0", aria-valuemax="100", style="width:50%")
+								span.text-white Básico
+						p 
+							i.iconos.css.icon-mobile-phone  Materialize
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="30", aria-valuemin="0", aria-valuemax="100", style="width:30%")
+								span.text-white Básico
+						p 
+							i.iconos.js.icon-mobile-phone  Sass
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="10", aria-valuemin="0", aria-valuemax="100", style="width:10%")
+								span.text-white Básico
+						p 
+							i.iconos.git.icon-github-alt  Git
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="30", aria-valuemin="0", aria-valuemax="100", style="width:30%")
+								span.text-white Básico
+						p 
+							i.iconos.git.icon-code  Jade
+						.progress
+							.progress-bar.progress-bar-info.progress-bar-striped.active(role="progressbar", aria-valuenow="30", aria-valuemin="0", aria-valuemax="100", style="width:30%")
+								span.text-white Básico
+			a(name="proyecto")
+			hr.espacio
+			section
+				.row.pd-5
+					h2.text-center.mg-4 Mis Proyectos
+					.col-sm-12.col-md-6.col-lg-6
+						.hovereffect
+							img.img-responsive.img-rounded.images(src="img/coder.png", alt="proyecto examen bootstrap")
+							.overlay
+								p.overlay
+						button.btn.btn-info.boton.btn-md
+							a(href="https://apariciozuniga.github.io/32_ExamenBootstrap/" target="blank") Ver más
+					.col-sm-12.col-md-6.col-lg-6
+						.hovereffect
+							img.img-responsive.img-rounded.images(src="img/primes.png", alt="proyecto primes en equipo github")
+							.overlay
+						button.btn.btn-info.boton.btn-md
+							a(href="https://apariciozuniga.github.io/21_Primes/" target="blank") Ver más
+				.row.pd-5
+					.col-sm-12.col-md-6.col-lg-6
+						.hovereffect
+							img.img-responsive.img-rounded.images(src="img/accesories.png", alt="proyecto coder")
+							.overlay
+						button.btn.btn-info.boton.btn-md
+							a(href="https://apariciozuniga.github.io/28Coder/" target="blank") Ver más
+					.col-sm-12.col-md-6.col-lg-6
+						.hovereffect
+							img.img-responsive.img-rounded.images(src="img/flat_theme.PNG", alt="proyecto primes en equipo github")
+							.overlay
+						button.btn.btn-info.boton.btn-md
+							a(href="https://apariciozuniga.github.io/48_Flat_theme/" target="blank") Ver más
+			section.parallax
+				h2.text-center.text-white "El mejor inicio de mi día es con una taza de café"
+			a(name="contactame")
+			section
+				.row.pd-5.text-center
+					h2.mg-4 Contactame
+					.col-sm-3.col-md-3.col-lg-3
+						a(href="https://github.com/apariciozuniga" target="blank")
+							i#github.iconos.icon-github-alt
+						p apariciozuniga
+					.col-sm-3.col-md-3.col-lg-3
+						a(href="https://plus.google.com/u/0/109147765651540108664" target="blank")
+							i#gplus.iconos.icon-google-plus
+						p bereniceaparicio31@gmail.com
+					.col-sm-3.col-md-3.col-lg-3
+						i#phone.iconos.icon-mobile-phone
+						p 55-66719127
+					.col-sm-3.col-md-3.col-lg-3
+						a(href="https://www.linkedin.com/profile/edit?locale=es_ES&trk=profile-preview" target="blank")
+							i#linkedin.iconos.icon-linkedin
+						p www.linkedin.com
+						button#back-to-top.btn.btn-info.btn-back-to-top(role="button" title="Inicio" data-placement="left")
+							span.glyphicon.glyphicon-chevron-up
+			footer.footer
+				.row
+					.col-sm-12.col-md-12.col-lg-12.text-center
+						span.text-white Elaborado y diseñado por Berenice Aparicio Zúñiga  &#169  |  Laboratoria 2016
+	
+
+		//- javascript
+		script(src="js/jquery.js")
+		script(src="bootstrap/js/bootstrap.min.js")
+		script(src="js/main.js")
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
